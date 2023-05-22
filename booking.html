@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<title>Booking</title>
+</head>
+<body>
+	<header class='header'>
+		<div class ='container'>
+
+			<div class='header-line1'>
+				<div class='header-logo'>
+					<img src="img/2.svg" class="svg">
+				</div>
+
+				<div class='nav'>
+					<a href="index.html" class="test-1">ГЛАВНАЯ</a>
+					<a href="#action" class="test-1">АКЦИИ</a>
+					<a href="register.html" class="test-1">РЕГИСТРАЦИЯ</a>
+					<a href="login.html" class="test-1">ЛИЧНЫЙ КАБИНЕТ</a>
+					<a href="#search" class="test-1">ПОИСК</a>
+				</a>
+			</div>
+			<div class='btn'>
+				<a class ='button' href="#"> Заказать билеты</a>
+			</div>
+			<div class ='body-down'>
+				
+			</div>
+		</div>
+	</div>
+</header>
+
+	<div class = "suphead"align="center">
+		<div class="booking">
+			<div class="inbooking">
+				<div class="test-5-fc ">
+					<p>Номер рейса:</p> <p>654</p> 
+				</div>
+				<div class="test-5-fcity ">
+					<p>Город вылета:</p> <p>Москва</p>
+				</div>
+				<div class="test-5-from ">
+					<p>Аэропорт вылета:</p><p> Домодедово</p>
+				</div>
+				<div class="test-5-dd">
+					<p>Дата вылета:</p> <p>15.12.23</p>
+				</div>
+				<div class="test-5-dt ">
+					<p>Время вылета:</p> <p>11:42</p>
+				</div>
+				<div class="test-5-tcity">
+					<p>Город назначения:</p> <p>Рим</p>
+				</div>
+				<div class="test-5-to">
+					<p>Аэропорт назначения:</p> <p>Frankfort</p>
+				</div>
+				<div class="test-5-at ">
+					<p>Время прилета:</p> <p>15:12</p>
+				</div>
+				<div Class="test-5-fp" >
+					<p>Стоимость:</p> <p>12320₽</p>
+				</div>
+			</div>
+			<div class="passenger">
+					<input type="text" class="test-5-name" placeholder="Имя" />
+					<input type="text" class="test-5-last" placeholder="Фамилия" />
+					<input type="text" class="test-5-dob" placeholder="Дата рождения" />
+					<input type="text" class="test-5-doc" placeholder="Номер документа" />
+					
+				</div>
+				<div class="bts">
+				<button class="test-5-add" onclick = "addPassenger()">Добавить пассажира</button>
+				<button class="test-5-remove" onclick = "removePassenger()">Удалить </button>
+			</div>
+			<form  action = "login.html" id="passenger-form">
+				<div class="fin-add">
+					<h3 class="test-5-price">Финальная стоимость: <span id="price1">₽</span></h3>
+					
+				</div>
+				
+				<button class="test-5-book" >Бронировать</button>
+			</form>
+				
+			
+		</div>
+		<!--2 рейс -->
+		<div class="booking">
+			<div class="inbooking">
+				<div class="test-5-fc ">
+					<p>Номер рейса:</p> <p>928</p> 
+				</div>
+				<div class="test-5-fcity ">
+					<p>Город вылета:</p> <p>Москва</p>
+				</div>
+				<div class="test-5-from ">
+					<p>Аэропорт вылета:</p><p> Домодедово</p>
+				</div>
+				<div class="test-5-dd">
+					<p>Дата вылета:</p> <p>12.12.24</p>
+				</div>
+				<div class="test-5-dt ">
+					<p>Время вылета:</p> <p>17:20</p>
+				</div>
+				<div class="test-5-tcity">
+					<p>Город назначения:</p> <p>Франция</p>
+				</div>
+				<div class="test-5-to">
+					<p>Аэропорт назначения:</p> <p>FranceAir</p>
+				</div>
+				<div class="test-5-at ">
+					<p>Время прилета:</p> <p>21:39</p>
+				</div>
+				<div Class="test-5-fp" >
+					<p>Стоимость:</p> <p>9000₽</p>
+				</div>
+			
+			</div>
+			<div class="passenger">
+					<input type="text" class="test-5-name" placeholder="Имя" />
+					<input type="text" class="test-5-last" placeholder="Фамилия" />
+					<input type="text" class="test-5-dob" placeholder="Дата рождения" />
+					<input type="text" class="test-5-doc" placeholder="Номер документа" />
+					
+				</div>
+				<div class="bts">
+				<button class="test-5-add" onclick = "addPassenger2()">Добавить пассажира</button>
+				<button class="test-5-remove" onclick = "removePassenger2()">Удалить </button>
+			</div>
+			<form action = "login.html" id="passenger-form">
+				<div class="fin-add">
+					<h3 class="test-5-price">Финальная стоимость: <span id="price2">₽</span></h3>
+					
+				</div>
+				
+				<button class="test-5-book" >Бронировать</button>
+			</form>
+				
+			
+		</div>
+		<!--3 рейс -->
+		<div class="booking">
+			<div class="inbooking">
+				<div class="test-5-fc ">
+					<p>Номер рейса:</p> <p>BiBus-24</p> 
+				</div>
+				<div class="test-5-fcity ">
+					<p>Город вылета:</p> <p>Рим</p>
+				</div>
+				<div class="test-5-from ">
+					<p>Аэропорт вылета:</p><p> Frankfort</p>
+				</div>
+				<div class="test-5-dd">
+					<p>Дата вылета:</p> <p>14.01.24</p>
+				</div>
+				<div class="test-5-dt ">
+					<p>Время вылета:</p> <p>14:50</p>
+				</div>
+				<div class="test-5-tcity">
+					<p>Город назначения:</p> <p>Москва</p>
+				</div>
+				<div class="test-5-to">
+					<p>Аэропорт назначения:</p> <p>Домодедово</p>
+				</div>
+				<div class="test-5-at ">
+					<p>Время прилета:</p> <p>19:09</p>
+				</div>
+				<div Class="test-5-fp" >
+					<p>Стоимость:</p> <p>9000₽</p>
+				</div>
+			
+			</div>
+			<div action = "login.html" class="passenger">
+					<input type="text" class="test-5-name" required placeholder="Имя" />
+					<input type="text" class="test-5-last" required placeholder="Фамилия" />
+					<input type="text" class="test-5-dob" requiredp laceholder="Дата рождения" />
+					<input type="text" class="test-5-doc" required placeholder="Номер документа" />
+					
+				</div>
+				<div class="bts">
+				<button class="test-5-add" onclick = "addPassenger3()">Добавить пассажира</button>
+				<button class="test-5-remove" onclick = "removePassenger3()">Удалить </button>
+			</div>
+			<form action = "login.html" id="passenger-form">
+				<div class="fin-add">
+					<h3 class="test-5-price">Финальная стоимость:<span id="price3">₽</span></h3>
+					
+				</div>
+				
+				<button class="test-5-book" >Бронировать</button>
+			</form>
+				
+			
+		</div>
+	
+	<footer class="footerdop">
+	<div class="containerf">
+		<div class="footer-block">
+			<nav class="footer-nav">
+				<a href="index.html" class="footer-link">На главную</a>
+				<a href="register.html" class="footer-link">Зарегистрироваться</a>
+				<a href="login.html" class="footer-link">Войти</a>
+				<a href="#" class="footer-link">Контакты</a>
+				<a href="#" class="footer-link">Новости</a>
+				<a href="index.html" class="footer-link">Вернуться</a>
+				<a href="#" class="footer-link">Поддержка</a>
+			</nav>
+			<div class="social-links">
+				<a href="#" class="social-link"><img src="img/inst.svg" alt="instagram" class="pod"></a>
+				<a href="#" class="social-link"><img src="img/facebook .svg" alt="facebook" class="pod"></a>
+				<a href="#" class="social-link"><img src="img/vk.svg" alt="vk" class="pod"></a>
+			</div>
+			<div class="phone">
+				<p class="text-phone">Телефон для связи</p>
+				<a href="#" class="test-0-phone">8 (800) 100-10-10</a>
+			</div>
+		</div>
+	</div>
+</footer>
+	<script src="js\script.js"></script>
+</body>
+
+</html>
